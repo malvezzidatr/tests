@@ -20,7 +20,7 @@ function CalculatorDisplay({value, ...props}) {
   )
 
   return (
-    <DisplayContainer {...props}>
+    <DisplayContainer id="calculator-display" {...props}>
       <AutoScalingText>{formattedValue}</AutoScalingText>
     </DisplayContainer>
   )
