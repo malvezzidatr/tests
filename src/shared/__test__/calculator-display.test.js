@@ -5,9 +5,18 @@ import CalculatorDisplay from "../calculator-display";
 test('renders', () => {
     const {container} = render(<CalculatorDisplay value='0' />)
     expect(container).toMatchInlineSnapshot(`
+.emotion-0 {
+  line-height: 130px;
+  font-size: 6em;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+}
+
 <div>
   <div
-    class="css-x6lwa5-DisplayContainer e15jdbur0"
+    class="emotion-0 emotion-1"
     id="calculator-display"
   >
     <div
